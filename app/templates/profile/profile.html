@@ -23,7 +23,7 @@
             {% if user == current_user %}
             <div class="profpic">
                 <div id="updates">
-                    <a style="color: white" href="{{url_for('main.updateprofile', name=user.username)}}">Edit Bio</a>
+                    <a style="color:white" href="{{url_for('main.updateprofile',name=user.username)}}">Edit Bio</a>
                     <button  class="btn btn-sm btn-info" id="profbutton">Update Picture</button>
                 </div>
                 <div id="imgform">
@@ -40,9 +40,7 @@
 
 
 
-<!-- 
-<div class="row">
-<div class="jumbotron"> -->
+
 <div class="col-md-4 ">
 <div class="jumbotron">
 
