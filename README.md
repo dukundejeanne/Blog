@@ -26,6 +26,7 @@ Use Terminal to open the server and the brouser to run this application
 * Create test file to test all your method 
 * Create the manage file for used to run all your test
 * Create Start.sh to help you to run and open the server
+* Create a config file to link your project qith the database or any url link
 
 ## License
 Permission is granted , free of charge to any one who want touse my blog in reading Quotes and comment on the post, copy this software for fee.this website is an open website every one can use it by Ordering ,searching and visite the website 
