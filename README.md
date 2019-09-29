@@ -15,6 +15,8 @@ use code . for visual code
 * Python3.6
 * terminal 
 * ubuntu window
+* html
+* css
 ## Run
 Use Terminal to open the server and the brouser to run this application
 
