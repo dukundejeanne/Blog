@@ -1,11 +1,12 @@
 # Blog
-Pitch app allow user to pitch ,comment
+Personal Blog app
 
 ## By Dukunde Marie Jeanne
 ## Description
+
+Personal blog that display all the my personal thing the user is the only one to read and comment and the writer ni to create update and delete any post and delete the comment
 this application if for password Locker created on , 29 September 2019
 
-This application show all Pitches. by comments you need to login first and you can comment any comment and like any pitches you want .
 when you login by entering the email this application will send you en email for you to welcome in this application.
 
 ## Project instruction 
