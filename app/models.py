@@ -35,9 +35,9 @@ class User(UserMixin,db.Model):
     def save_u(self):
         db.session.add(self)
         db.session.commit()
-    def delete(self):
-        db.session.delete(self)
-        db.session.commit()
+    # def delete(self):
+    #     db.session.delete(self)
+    #     db.session.commit()
 
     def __repr__(self):
         return f'User{self.username}'
@@ -67,7 +67,7 @@ class Comment(db.Model):
     comment=db.Column(db.Text())
     user_id=db.Column(db.Integer,db.ForeignKey('users.id'))
     post_id=db.Column(db.Integer,db.ForeignKey('postes.id'))
-    
+
     def save_c(self):
         db.session.add(self)
         db.session.commit()
