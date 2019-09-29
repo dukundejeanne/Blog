@@ -7,7 +7,7 @@ Personal Blog app
 Personal blog that display all the my personal thing the user is the only one to read and comment and the writer ni to create update and delete any post and delete the comment
 this application if for password Locker created on , 29 September 2019
 
-when you login by entering the email this application will send you en email for you to welcome in this application.
+when you singup by entering the email and login usingin the username this application will send you en email for you to welcome in this application.
 
 ## Project instruction 
 to start using this app you can first clone it on github
