@@ -11,10 +11,10 @@ migrate=Migrate(app,db)
 
 manager.add_command('db',MigrateCommand)
 manager.add_command('run',Server(use_debugger=True))
-@Manager.shell
+
+@manager.shell
 def make_shell_context():
     return dict(app=app,db=db,User=User)
-
 
 @manager.command
 def test():
