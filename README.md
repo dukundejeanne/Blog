@@ -17,6 +17,7 @@ and user visual code for writing codes
 * ubuntu window
 * html
 * css
+* Postgres 
 ## Run
 Use Terminal to open the server and the brouser to run this application
 
