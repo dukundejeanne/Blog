@@ -67,15 +67,10 @@ class Comment(db.Model):
     comment=db.Column(db.Text())
     user_id=db.Column(db.Integer,db.ForeignKey('users.id'))
     post_id=db.Column(db.Integer,db.ForeignKey('postes.id'))
-    # article_id = db.Column(db.Integer,db.ForeignKey('articles.id'))
-
+    
     def save_c(self):
         db.session.add(self)
         db.session.commit()
-        
-    # def delete_c(self):
-    #     db.session.delete(self)
-    #     db.session.commit()
 
     @classmethod
     def get_comments(cls,post_id):
@@ -84,30 +79,6 @@ class Comment(db.Model):
 
     def __repr__(self):
         return f'comment{self.comment}'
-
-
-
-
-# class Article(db.Model):
-#     '''
-#     This class will contain the database schema for articles table
-#     '''
-#     __tablename__ = 'articles'
-
-#     id = db.Column(db.Integer,primary_key = True)
-#     article = db.Column(db.String)
-#     category = db.Column(db.String)
-#     user_id = db.Column(db.Integer,db.ForeignKey('users.id'))
-#     comments = db.relationship('Comment',backref='article',lazy='dynamic')
-
-#     def save_article(self):
-#         db.session.add(self)
-#         db.session.commit()
-
-#     @classmethod
-#     def get_article(cls):
-#         articles = Article.query.all()
-#         return articles
 
 class Quotes:
     def __init__(self,author,quote):
