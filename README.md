@@ -10,7 +10,7 @@ when you login by entering the email this application will send you en email for
 
 ## Project instruction 
 to start using this app you can first clone it on github
-use code . for visual code
+and user visual code for writing codes
 ## Technology used
 * Python3.6
 * terminal 
