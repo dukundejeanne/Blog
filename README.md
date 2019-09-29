@@ -1,5 +1,5 @@
 # Blog
-Pitch app allow user to pitch ,comment downvote and upvote
+Pitch app allow user to pitch ,comment
 
 ## By Dukunde Marie Jeanne
 ## Description
