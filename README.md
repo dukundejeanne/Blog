@@ -3,7 +3,7 @@ Pitch app allow user to pitch ,comment downvote and upvote
 
 ## By Dukunde Marie Jeanne
 ## Description
-this application if for password Locker created on , 22 September 2019
+this application if for password Locker created on , 29 September 2019
 
 This application show all Pitches. by comments you need to login first and you can comment any comment and like any pitches you want .
 when you login by entering the email this application will send you en email for you to welcome in this application.
