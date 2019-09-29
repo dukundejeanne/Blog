@@ -1,4 +1,4 @@
-# Pitch
+# Blog
 Pitch app allow user to pitch ,comment downvote and upvote
 
 ## By Dukunde Marie Jeanne
